@@ -22,7 +22,7 @@
     color:#fff;
   }
 
- img{
+  .img-hover{
      
   opacity:.7;
     transition: opacity .25s ease-in-out;
@@ -31,11 +31,11 @@
     }
   
 
-  img:hover {
+    .img-hover:hover {
     opacity: 1;
   }
 
-  .search{
+  #search{
       transform: translateY(10px);  
   }
 
@@ -45,32 +45,23 @@
   width: 100%;
   height: 44px;
   margin-top: 47px;
+  margin-bottom:-1%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(36, 71, 185);
-  color: #fff;
+  color:black;
   font-size: 15px;
 }
 
 .add-h{
-  color: #fff;
+  color:black;
 }
 .add-h:hover{
   color: #fff;
 }
 
-.add-2{
-  width: 100%;
-  height: 44px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-}
-.container-fluid{
+.sec-1{
   background-image: url('bg-img/home-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -119,13 +110,24 @@
   transform: translateX(-200px);
 }
 
+.sec-1-b{
+  position: relative;
+  top: 600px;
+}
 
 /*--section 2---*/
 
 .sec-2{
   background-image: url(bg-img/hero__dvsxv8smkkgi_large.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  height:750px;
+  padding-top:400px;
+}
+
+.title-2{
+  position:relative;
+  top:-400px;
 }
 
 .title-2 h1{
@@ -149,7 +151,7 @@
 }
 
 .sec-row{
-  padding-top: 2%;
+  transform:translateY(-100px);
 }
 
 .row .mr{
@@ -163,6 +165,7 @@
   background-image: url(bg-img/mini.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  height:800px;
 }
 
 .title-mini{
@@ -182,4 +185,190 @@
 .title-mini .span{
   color: rgb(86, 153, 209); 
   margin-left: 2%;
+}
+
+/*-----section 4 --*/
+
+.sec-4{
+  position:relative;
+  top:-270px;
+  
+}
+
+.product-1{
+  background-image: url(bg-img/tile__cauwwcyyn9hy_large.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position:relative;
+  top:40px;
+    width: 100%;
+  height: 500px;
+  
+}
+
+.sec-4-title-1{
+  position:relative;
+  top:-17px;
+}
+
+.sec-4-title-1 h1{
+  font-family: "SF Pro Display";
+  font-size:px;
+}
+
+.row{
+  width:100%;
+  margin-top:-230px;
+}
+
+.product-2{
+  background-image: url(bg-img/watch-sec-4.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+  background-color: black;
+  color: #fff;
+   width: 100%;
+  height: 540px;
+  position:relative;
+}
+
+#img-sepia{
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5%;
+
+}
+
+.product-2 p{
+ padding-top:2%;
+}
+
+.span-4{
+  font-size:17px;
+ color: rgb(86, 153, 209);
+ position:relative;
+ top:-18px;
+}
+
+
+/*--section-5--*/
+
+.sec-5{
+  position:relative;
+  top:-40px
+  
+}
+
+.product-1-1{
+  background-image: url(bg-img/se-watchs.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position:relative;
+  top:40px;
+    width: 100%;
+  height: 530px;
+  
+}
+
+.sec-4-title-1-1{
+  position:relative;
+  top:-17px;
+}
+
+.sec-4-title-1-1 h1{
+  font-family: "SF Pro Display";
+  font-size:px;
+}
+
+.row{
+  width:100%;
+  margin-top:-230px;
+}
+
+.product-2-2{
+  background-image: url(bg-img/i-pad-img.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position:relative;
+  top:20px;
+}
+
+.sec-4-title-2-2{
+  position:relative;
+  top:300px;
+}
+
+
+.span-4-2{
+  font-size:17px;
+ color: rgb(86, 153, 209);
+ position:relative;
+ top:-5px;
+ margin-left:5%;
+}
+
+/*--section-6--*/
+
+.sec-6{
+  position:relative;
+  top:50px
+}
+
+.product-3-1{
+  background-image: url(bg-img/one-img.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position:relative;
+  top:40px;
+  height: 770px;
+  
+}
+
+.sec-4-title-3-1{
+  position:relative;
+  top:170px;
+}
+.sec-4-title-3-1 p{
+  font-size:13px;
+  color:rgb(134, 93, 45);
+  transform: translateY(16px);
+}
+
+.sec-4-title-3-1 h5{
+font-size:19px;
+color:black;
+padding-top: 3%;
+}
+
+.row{
+  width:100%;
+}
+
+.product-2-2-2{
+  background-image: url(bg-img/tv-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position:relative;
+  top:20px;
+  left: 10px;
+  margin-top:168px;
+}
+
+.sec-4-title-2-2-2{
+  position: relative;
+  top: 420px;
+  color: #fff;
+  margin-top: 5%;
+}
+
+#one-tv{
+  padding-top:10%;
+}
+.span-4-3-1{
+  font-size:16px;
+ color: rgb(86, 153, 209);
+ position:relative;
+ top:-5px;
 }
