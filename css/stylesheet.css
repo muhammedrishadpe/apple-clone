@@ -1,0 +1,119 @@
+@import url(https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro Display";
+}
+
+
+.navbar {
+    background-color:rgb(19, 19, 19);
+    height: 47px;
+  }
+  .navbar-nav {
+    margin:auto;
+  }
+
+  .nav-link {
+    margin:20px 35px;
+    color:#fff;
+  }
+
+ img{
+     
+  opacity:.7;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
+  
+
+  img:hover {
+    opacity: 1;
+  }
+
+  .search{
+      transform: translateY(10px);  
+  }
+
+
+
+.add{
+  width: 100%;
+  height: 44px;
+  margin-top: 47px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 71, 185);
+  color: #fff;
+  font-size: 15px;
+}
+
+.add-h{
+  color: #fff;
+}
+.add-h:hover{
+  color: #fff;
+}
+
+.add-2{
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.container-fluid{
+  background-image: url('bg-img/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px; 
+}
+.section-1{
+  color: #fff;
+  padding-top: 2%;
+}
+
+.section-1 h1{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.section-1 h4{
+  font-size: 36px;
+  font-weight: 400;
+  font-family: s;
+  font-family: "SF Pro Display";
+}
+
+.section-1 a{
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.row{
+  font-size: 24px;
+  position: relative;
+  top: 400px;
+}
+
+.h-b{
+  color: gray;
+  font-size: 22px;
+}
+
+.t-r{
+  transform: translateX(200px);
+}
+
+.t-l{
+  transform: translateX(-200px);
+}
+
+
