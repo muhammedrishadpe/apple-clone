@@ -1,15 +1,17 @@
 @import url(https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
-
+@import url(https://db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display);
 *{
     padding: 0;
     margin: 0;
-    font-family: "SF Pro Display";
+    
 }
 
 
+
 .navbar {
-    background-color:rgb(19, 19, 19);
+    background-color:black;
     height: 47px;
+    opacity: .9;
   }
   .navbar-nav {
     margin:auto;
@@ -76,18 +78,18 @@
 }
 .section-1{
   color: #fff;
-  padding-top: 2%;
+  padding-top: 4%;
 }
 
 .section-1 h1{
+  font-family:"SF Pro Display";
   font-size: 50px;
-  font-weight: 900;
 }
 
 .section-1 h4{
-  font-size: 36px;
-  font-weight: 400;
-  font-family: s;
+  font-size: 25px;
+  font-weight: 100;
+
   font-family: "SF Pro Display";
 }
 
@@ -110,6 +112,7 @@
 
 .t-r{
   transform: translateX(200px);
+  
 }
 
 .t-l{
@@ -117,3 +120,66 @@
 }
 
 
+/*--section 2---*/
+
+.sec-2{
+  background-image: url(bg-img/hero__dvsxv8smkkgi_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-2 h1{
+  font-family: "SF Pro Display";
+  font-size: 55px;
+  padding-top: 4%;
+}
+
+.title-2 p{
+  font-size: 28px;
+  margin-top: -1%;
+}
+
+.section-2 .span{
+  color: rgb(86, 153, 209);
+  font-size:21px;
+  position: relative;
+  top: -17px;
+  left: -13px;
+  margin-left: 3%;
+}
+
+.sec-row{
+  padding-top: 2%;
+}
+
+.row .mr{
+  position: relative;
+  top: 16px;
+}
+
+/*---section 3--*/
+
+.sec-3{
+  background-image: url(bg-img/mini.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-mini{
+  text-align: center;
+  position: relative;
+  top: 550px;
+  left: -8px;
+  font-size: 20px;
+}
+
+.title-mini h1{
+ font-family: "SF Pro Display";
+ font-size: 52px;
+
+}
+
+.title-mini .span{
+  color: rgb(86, 153, 209); 
+  margin-left: 2%;
+}
