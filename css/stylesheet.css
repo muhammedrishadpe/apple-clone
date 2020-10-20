@@ -22,6 +22,10 @@
     color:#fff;
   }
 
+.navbar-toggler-icon{
+  color: red !important;
+}
+
   .img-hover{
      
   opacity:.7;
@@ -353,12 +357,15 @@ padding-top: 3%;
   position:relative;
   top:20px;
   left: 10px;
-  margin-top:168px;
+  margin-top:170px;
 }
 
 .sec-4-title-2-2-2{
   position: relative;
-  top: 420px;
+  top: 360px;
+  left: 0;
+  bottom: 0px;
+  right: 0;
   color: #fff;
   margin-top: 5%;
 }
@@ -371,4 +378,54 @@ padding-top: 3%;
  color: rgb(86, 153, 209);
  position:relative;
  top:-5px;
+}
+
+.span-4-2{
+  position: relative;
+  bottom: 200px;
+}
+
+/*---ection footer--*/
+
+.sec-footer{
+  width: 100%;
+  height: 700px;
+  display: inline-block;
+  position: relative;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin-top: 36%;
+  background-color: rgb(219, 216, 216);
+}
+
+
+
+.ct-f{
+  width: 78%;
+  font-size: 13px;
+  color: rgb(194, 193, 193);
+  padding-top: 2%;;
+}
+
+.section-footer{
+  transform: translateY(-59%);
+}
+
+.foot-s-l{
+  font-size: 13px;
+  color: black;
+  display: block;
+}
+
+.foot-s-l h6{
+  font-size: 12px;
+  font-family: "SF Pro Display";
+}
+
+.foot-s-l a{
+color: black;
+padding-bottom: 5%;
+line-height: 25px;
 }
