@@ -490,6 +490,8 @@ line-height: 25px;
 @media only screen and (max-width: 360px) {
   /* For mobile phones: */
   
+
+ 
   .add{
         text-align: center;
         padding-top: 13%;
@@ -506,7 +508,8 @@ line-height: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   }
+     
+  }
 
   .section-1 h1{
      font-size: 29px;
@@ -562,11 +565,58 @@ line-height: 25px;
   font-size: 19px;
 }
 
+.t-r{
+  position: relative;
+  top: 0px;
+  left: 50px;
+  margin-top:-10px
+  
+}
+
+.t-l{
+  position: relative;
+  top: -200px;
+  left: 50px;
+  padding-top: 230px;
+
+}
 
 
+.sec-3{
+   background-repeat: no-repeat;
+   background-size:740px;
+}
+
+.title-mini h1{
+  font-size:30px;
+}
 
 
+.sec-4-title-1 h1{
+     display:none;
+}
 
+
+.product-1{
+    background-image: url(bg-img/ipad-air-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:700px;
+  margin-bottom:-50px;
+  position:relative;
+  top:-50px;
+  
+}
+
+.sec-4-title-1 p{
+  font-size:19px;
+
+}
+
+.sec-4-title-1{
+  position:relative;
+  top:400px;
+}
 
 }
 
@@ -579,3 +629,4 @@ line-height: 25px;
 .title-2{
   font-size: 11px;
 }
+
