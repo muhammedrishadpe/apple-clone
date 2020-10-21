@@ -22,9 +22,7 @@
     color:#fff;
   }
 
-.navbar-toggler-icon{
-  color: red !important;
-}
+
 
   .img-hover{
      
@@ -72,7 +70,7 @@
   height: 800px; 
 }
 .section-1{
-  color: #fff;
+  color: #f5f5f7;
   padding-top: 4%;
 }
 
@@ -84,7 +82,7 @@
 .section-1 h4{
   font-size: 25px;
   font-weight: 100;
-
+ color: #f5f5f7;
   font-family: "SF Pro Display";
 }
 
@@ -316,7 +314,7 @@
 .product-2-2{
   background-image: url(bg-img/i-pad-img.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   position:relative;
   top:20px;
 }
@@ -345,20 +343,20 @@
 .product-3-1{
   background-image: url(bg-img/one-img.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   position:relative;
-  top:40px;
+  top:230px;
   height: 770px;
   
 }
 
 .sec-4-title-3-1{
   position:relative;
-  top:170px;
+  top:10px;
 }
 .sec-4-title-3-1 p{
   font-size:13px;
-  color:rgb(134, 93, 45);
+  color:#dd5100;
   transform: translateY(16px);
 }
 
@@ -419,7 +417,7 @@ padding-top: 3%;
  right: 0;
  bottom: 0;
  margin-top: 36%;
-  background-color: rgb(219, 216, 216);
+  background-color: #F5F5F7;
 }
 
 
@@ -427,12 +425,12 @@ padding-top: 3%;
 .ct-f{
   width: 78%;
   font-size: 13px;
-  color: rgb(194, 193, 193);
+  color:  #8f8f8f;
   padding-top: 2%;
 }
 
 .section-footer{
-  transform: translateY(-50%);
+  transform: translateY(-55%);
 }
 
 .foot-s-l{
@@ -447,7 +445,7 @@ padding-top: 3%;
 }
 
 .foot-s-l a{
-color: black;
+color: #575757;
 line-height: 25px;
 }
 
@@ -608,6 +606,11 @@ line-height: 25px;
   
 }
 
+ 
+.sec-4-title #span-4{
+   font-size: 17px; 
+}
+
 .sec-4-title-1 p{
   font-size:19px;
 
@@ -616,6 +619,72 @@ line-height: 25px;
 .sec-4-title-1{
   position:relative;
   top:400px;
+}
+
+
+.sec-4-title-1-1 h5 , .span-4{
+  font-size:19px;
+}
+
+.sec-4-title-1-1 .span-4{
+  position:relative;
+  top:0px;
+
+}
+
+.product-1-1{
+  background-size:280px;
+  margin-top: -100px;
+
+}
+
+ .sec-4-title-1-1{
+   transform: translateY(100px);
+ }
+
+
+.product-2-2{
+  background-size: 300px;
+  width: 400px;
+  height: 700px;
+}
+
+.sec-4-title-2-2{
+  padding-top: 100px;
+}
+
+
+.sec-4-title-3-1{
+  transform: translateY(-120px);
+  margin-top: -30px;
+}
+
+.product-3-1{
+  background-size: 400px;
+}
+
+.product-2-2-2{
+  width: 200vw;
+  height: 100vh;
+  margin: -10%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  top: -400px;
+  background-size:1000px;
+}
+
+
+.sec-4-title-2-2-2{
+  position: relative;
+  top: 500px;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+
+#one-tv{
+  position: relative;
+  top:270px;
 }
 
 }
